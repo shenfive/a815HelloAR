@@ -13,6 +13,7 @@
 		BA2000C527005DB400E868E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2000C327005DB400E868E0 /* Main.storyboard */; };
 		BA2000C727005DB500E868E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2000C627005DB500E868E0 /* Assets.xcassets */; };
 		BA2000CA27005DB500E868E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2000C827005DB500E868E0 /* LaunchScreen.storyboard */; };
+		BA2000D22700675400E868E0 /* worldmap.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BA2000D12700675300E868E0 /* worldmap.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA2000C627005DB500E868E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA2000C927005DB500E868E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA2000CB27005DB500E868E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2000D12700675300E868E0 /* worldmap.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = worldmap.jpeg; path = Assets.xcassets/worldmap.imageset/worldmap.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				BA2000BF27005DB400E868E0 /* art.scnassets */,
 				BA2000C127005DB400E868E0 /* ViewController.swift */,
 				BA2000C327005DB400E868E0 /* Main.storyboard */,
+				BA2000D12700675300E868E0 /* worldmap.jpeg */,
 				BA2000C627005DB500E868E0 /* Assets.xcassets */,
 				BA2000C827005DB500E868E0 /* LaunchScreen.storyboard */,
 				BA2000CB27005DB500E868E0 /* Info.plist */,
@@ -126,6 +129,7 @@
 			files = (
 				BA2000C027005DB400E868E0 /* art.scnassets in Resources */,
 				BA2000CA27005DB500E868E0 /* LaunchScreen.storyboard in Resources */,
+				BA2000D22700675400E868E0 /* worldmap.jpeg in Resources */,
 				BA2000C727005DB500E868E0 /* Assets.xcassets in Resources */,
 				BA2000C527005DB400E868E0 /* Main.storyboard in Resources */,
 			);
