@@ -13,6 +13,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
+    var planes:[OverlayPlane] = []
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -91,6 +94,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
 
+        configuration.planeDetection = [.horizontal]
+        
         // Run the view's session
         sceneView.session.run(configuration)
     }
@@ -112,6 +117,18 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         return node
     }
 */
+    
+    
+    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        if !(anchor is ARPlaneAnchor) { return } //確定找到加入的是 plane
+        let plane = OverlayPlane(anchor: anchor as! ARPlaneAnchor) //產出自訂義的可視平台
+        self.planes.append(plane) //新增到 ViewController 的記錄中
+        node.addChildNode(plane) //把自訂義的可視元件，蓋一層到平台上
+        
+    }
+//    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+//        print("Get Plane")
+//    }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user

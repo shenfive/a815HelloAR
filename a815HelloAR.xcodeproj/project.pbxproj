@@ -14,6 +14,7 @@
 		BA2000C727005DB500E868E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2000C627005DB500E868E0 /* Assets.xcassets */; };
 		BA2000CA27005DB500E868E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2000C827005DB500E868E0 /* LaunchScreen.storyboard */; };
 		BA2000D427006B7500E868E0 /* worldmap.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BA2000D327006B7500E868E0 /* worldmap.jpeg */; };
+		BA2000D627006FEE00E868E0 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2000D527006FEE00E868E0 /* OverlayPlane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BA2000C927005DB500E868E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA2000CB27005DB500E868E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA2000D327006B7500E868E0 /* worldmap.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldmap.jpeg; sourceTree = "<group>"; };
+		BA2000D527006FEE00E868E0 /* OverlayPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				BA2000BD27005DB400E868E0 /* AppDelegate.swift */,
 				BA2000BF27005DB400E868E0 /* art.scnassets */,
 				BA2000C127005DB400E868E0 /* ViewController.swift */,
+				BA2000D527006FEE00E868E0 /* OverlayPlane.swift */,
 				BA2000D327006B7500E868E0 /* worldmap.jpeg */,
 				BA2000C327005DB400E868E0 /* Main.storyboard */,
 				BA2000C627005DB500E868E0 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2000C227005DB400E868E0 /* ViewController.swift in Sources */,
+				BA2000D627006FEE00E868E0 /* OverlayPlane.swift in Sources */,
 				BA2000BE27005DB400E868E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
